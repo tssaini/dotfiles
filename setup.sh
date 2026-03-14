@@ -5,6 +5,8 @@
 
 brew install tmux
 
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 brew install neovim
@@ -15,4 +17,5 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.4/install.sh | bash
 
 nvm install --lts 
 
+brew install stow
 
